@@ -18,7 +18,7 @@ def crear_excel():
     ws.append(["Tiempo (segundos)", "CPU (%)", "Memoria (%)", "Disco (%)", "Red (bytes enviados)"])
     return wb, ws
 
-# Función principal para ejecutar el monitoreo cada 10 segundos por 2 minutos
+# Función principal para ejecutar el monitoreo cada 10 segundos por 1 hora
 def monitorear():
     # Crear el archivo Excel y la hoja
     wb, ws = crear_excel()
